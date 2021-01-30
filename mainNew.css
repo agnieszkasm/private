@@ -1,9 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-
 @media (min-width: 1780px) {
+
+  * {
+    box-sizing: border-box;
+  }
+  
 
 body {
   font-family: "Lato", sans-serif;
@@ -441,9 +441,7 @@ div.x-or {
 }
 
 .authors {
- 
   font-size: 0.7vw;
   padding-top: 11px; 
 
-  
 } */
