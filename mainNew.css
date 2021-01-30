@@ -15,12 +15,13 @@
   .box {
     background-image: url("./icons/brown/background1.png");
     /* background-image: url("./icons/brown/background3.jpg"); */
-    
     /* background-image: url("./icons/brown/background2.jpg"); */
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: 100vw 52.2vw;
     background-color: rgb(255,224, 204);
+    
+    
     
   }
 
@@ -261,17 +262,11 @@ font-weight: bold;
 
   /* medium / tablet ipads  */
 @media (min-width: 480px) and (max-width: 960px) 
-/* and (orientation: portrait)  */
-{
+/* and (orientation: portrait) */
+ {
 
-   .box {
-    /* background-image: url("./icons/brown/background1.png"); */
-        background-image: url("./icons/brown/93977_mobile.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    /* background-size: 100vw 52.2vw; */
-    background-size: 100% 130%
-  }
+
+
 
 
   div.app-name {
@@ -358,25 +353,50 @@ a#use-sso-button {
     font-size: 0.4vw;;
     font-weight: bold;
   }
+/****** MEDIA *******/
 
 
+  @media (min-width: 1679px) and (max-width: 1800px) {
+    .box {
+      background-image: url("./icons/brown/background1.png");
+      /* background-image: url("./icons/brown/background3.jpg"); */
+      /* background-image: url("./icons/brown/background2.jpg"); */
+      background-color: #cccccc;
+      background-repeat: no-repeat;
+      background-size: 100vw 56vw;
+      background-color: rgb(255,224, 204);   
+    }
 
-  /* large / laptop */
-@media (min-width: 961px) and (max-width: 1611px) {
- 
-  body {
-    font-size: 1vw;
+    div.app-name {
+     padding-top: 109%;
   }
 
+  div.footer-list {
+      margin-top: 13vw;
+  }
 
-
+  }
+  /* large / laptop */
+@media (min-width: 961px) and (max-width: 1678px) {
+ 
   .box {
     background-image: url("./icons/brown/background1.png");
-        /* background-image: url("./icons/brown/93977_mobile.jpg"); */
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    /* background-size: 100vw 52.2vw; */
-    /* background-size: 100% 109% */
+   background-size: 100vw 60vw;
+    background-color: rgb(255,224, 204);
+  }
+
+  div.app-name {
+    padding-top: 109%;
+ }
+
+ div.footer-list {
+     margin-top: 13vw;
+ }
+
+
+
+  body {
+    font-size: 1vw;
   }
   
   div.footer-list {
