@@ -236,23 +236,24 @@ nav.footer-nav {
 
 @media (min-width: 320px) and (max-width: 1779px) {
 
-}
 
-.box {
-  display: flex;
-  justify-content: center;
-  background-image: url("./icons/brown/93977_mobile_V.jpg");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-size: 100vw 160vw;
-  background-color: rgb(255,224, 204);   
-  position: center center;
+  .box {
+    display: flex;
+    justify-content: center;
+    background-image: url("./icons/brown/93977_mobile_V.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100vw 160vw;
+    background-color: rgb(255,224, 204);   
+    position: center center;
+  
+  } 
+  
+  .app-name, .login-panel, select#menu {
+    display: none;
+  }}
 
-} 
 
-.app-name, .login-panel, select#menu {
-  display: none;
-}
 /* small / mobile */
 /* @media (min-width: 320px) and (max-width: 1000px) {
 
