@@ -239,10 +239,10 @@ nav.footer-nav {
   .box {
     display: flex;
     justify-content: center;
-    background-image: url("./icons/brown/93977_mobile_V2.jpg");
+    background-image: url("./icons/brown/93977_mobile_V3.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
-    background-size: 100vw 160vw;
+    background-size: 110vw 180vw;
     background-color: rgb(255,224, 204);   
     position: center center;
   
