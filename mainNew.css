@@ -580,11 +580,11 @@ div.x-or {
  @media (min-width: 320px) and (max-width: 649px) {
 
   #container{
-   margin-top: 880px;
+   margin-top: 630px;
  }
  
  body {
-   font-size: 3vw;
+   font-size: 2.5vw;
  }
  
  /* input.input-design,
@@ -594,7 +594,7 @@ div.x-or {
  } */
  
  .box {
-   background: url("./icons/brown/93977_mobile_V2.jpg") no-repeat center center fixed;
+   background: url("./icons/brown/93977_mobile_V3.jpg") no-repeat center center fixed;
    background-size: cover;
    display: flex;
    flex-direction: column;
@@ -608,26 +608,25 @@ div.x-or {
    font-family: "Lobster", cursive;
    justify-content: center;
    text-align: center;
-   font-size: 4vw;
+   font-size: 3.5vw;
    padding-bottom: 0px;
  }
  
  div.login-panel {
-   width: 50%;
-   margin-left: 20%;
-   margin-top: 380px;
-   padding-bottom: 2%;
+   width: 42%;
+   margin-left: 28%;
+   margin-top: 200px;
    padding-top: 2%;
  }
  
  select#menu {
    display: flex;
-   margin-left: 34%;
-   margin-top: 4%;
+   margin-left: 39%;
+   margin-top: 3%;
    width: 90px;
    height: 31px;
    padding: 6px;
-   font-size: 3vw;
+   font-size: 2vw;
  }
  
  div.footer-list {
@@ -646,10 +645,10 @@ div.x-or {
  }
  
  input.input-design, input.login-button {
-   width: 73%;
+   width: 72%;
    height: 5vw;
    padding-left: 2%;
-   font-size: 3vw;
+   font-size: 2.5vw;
  }
  
  span.authors {
@@ -667,8 +666,8 @@ div.x-or {
  
   
  div.x-or {
-   font-size: 3vw;
-   margin-bottom: 4%;;
+   font-size: 2vw;
+  
  }
  
   }
