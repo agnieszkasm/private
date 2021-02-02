@@ -9,9 +9,7 @@ body {
 
 .box {
   background-image: url("./icons/brown/background1.png");
-  /* background-image: url("./icons/brown/background_big.png"); */
-  /* background-image: url("./icons/brown/background3.jpg"); */
-  /* background-image: url("./icons/brown/background2.jpg"); */
+  
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: 100vw 53vw;
@@ -228,9 +226,116 @@ nav.footer-nav {
 }
 
 /* MEDIA */
+@media (min-width: 320px) and (max-width: 480px) {
 
-@media (min-width: 1618px) {
+  #container{
+   margin-top: 630px;
+ }
+ 
+ body {
+   font-size: 3.5vw;
+ }
+ 
+ 
+ .box {
+   background: url("./icons/brown/93977_mobile_V3.jpg") no-repeat center center fixed;
+   /* background-size: 109% 100%; */
+   background-size: cover;
+ 
+   display: flex;
+   flex-direction: column;
+   
+ }
+ div.app-name {
+   display: none;
+ }
+ div.app-name-mobile {
+   display: flex;
+   font-family: "Lobster", cursive;
+   justify-content: center;
+   text-align: center;
+   font-size: 30px;
+   padding-bottom: 0px;
+   padding-top: 3%;;
+ }
+ 
+ div.login-panel {
+   width: 65%;
+   height: 100%;
+   margin-left: 15%;
+   margin-top: 44%;
+   padding-top: 2%;
+ }
+ 
+ #use-sso-button {
+ padding-top: 1%;
+}
+
+ p#sign-up-option, p#sign-up-option-2 {
+   margin-bottom: 0;
+   padding: 0;
+ }
+
+
+
+ select#menu {
+ display: none;
+ }
+ 
+ div.footer-list {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   flex-flow: wrap;
+   /* margin-top: 140px; */
+
+   margin-right: 5%;
+ }
+
+ nav.footer-nav {
+   margin-right: 30%;
+   margin-left: 30%;
+ }
+ 
+ input.input-design, input.login-button {
+   width: 72%;
+   height: 6vw;
+   /* padding-left: 2%; */
+   font-size: 3.2vw;
+ }
+ 
+ span.authors {
+    font-size: 2.5vw;
+   padding: 1px;
+
+  
+ }
+ 
+ .li-kzy1,
+ .li-kzy2,
+ .li-kzy3 {
+   font-size: 2vw;
+ }
+ 
+  
+ div.x-or {
+   font-size: 3vw;
+   padding: 0
+  
+ }
+ 
   }
+ 
+
+
+
+/* 
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
+/* 
 
 @media (min-width: 1527px) and (max-width: 1617px) {
 
@@ -541,7 +646,6 @@ div.footer-list {
   flex-direction: column;
   flex-flow: wrap;
   margin-top: 140px;
-  /* font-size: 3vw; */
   margin-right: 40%;
 }
 
@@ -587,11 +691,6 @@ div.x-or {
    font-size: 2.5vw;
  }
  
- /* input.input-design,
- input.login-button {
-   font-size: 3vw;
-   height: 25px;
- } */
  
  .box {
    background: url("./icons/brown/93977_mobile_V3.jpg") no-repeat center center fixed;
@@ -671,4 +770,4 @@ div.x-or {
  }
  
   }
-
+ */
