@@ -229,7 +229,7 @@ nav.footer-nav {
 @media (min-width: 320px) and (max-width: 480px) {
 
   #container{
-   margin-top: 630px;
+   margin-top: 150%;
  }
  
  body {
@@ -261,7 +261,7 @@ nav.footer-nav {
  
  div.login-panel {
    width: 65%;
-   height: 100%;
+   /* height: 100%; */
    margin-left: 15%;
    margin-top: 44%;
    padding-top: 2%;
