@@ -229,7 +229,8 @@ nav.footer-nav {
 @media (min-width: 320px) and (max-width: 480px) {
 
   #container{
-   margin-top: 150%;
+   margin-top: 130%;
+   /* position: fixed; */
  }
  
  body {
@@ -238,7 +239,7 @@ nav.footer-nav {
  
  
  .box {
-   background: url("./icons/brown/93977_mobile_V3.jpg") no-repeat center center fixed;
+   background: url("./icons/brown/93977_mobile_V3x.jpg") no-repeat center center fixed;
    /* background-size: 109% 100%; */
    background-size: 100% 100%;
  
@@ -260,11 +261,11 @@ nav.footer-nav {
  }
  
  div.login-panel {
-   width: 65%;
+   width: 60%;
    /* height: 100%; */
-   margin-left: 15%;
-   margin-top: 44%;
-   padding-top: 2%;
+   margin-left: 17%;
+   margin-top: 30%;
+   padding-top: 1%;
  }
  
  #use-sso-button {
