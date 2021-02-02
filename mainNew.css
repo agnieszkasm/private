@@ -263,9 +263,9 @@ nav.footer-nav {
  }
  
  div.login-panel {
-   width: 60%;
+   width: 62%;
    /* height: 100%; */
-   margin-left: 17%;
+   margin-left: 16%;
    margin-top: 33%;
       padding-top: 1%;
  }
@@ -301,8 +301,8 @@ nav.footer-nav {
  }
  
  input.input-design, input.login-button {
-   width: 72%;
-   height: 6vw;
+   width: 79%;
+   height: 6.5vw;
    /* padding-left: 2%; */
    font-size: 3.2vw;
  }
