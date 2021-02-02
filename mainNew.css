@@ -221,7 +221,8 @@ nav.footer-nav {
 
 #container{
   position: fixed;
-  margin-top: 38.5%;;
+  /* margin-top: 38.5%;; */
+  bottom: 3%;
   width: 60%;
 }
 
@@ -230,7 +231,7 @@ nav.footer-nav {
 
   #container{
    margin-top: 130%;
-   /* position: fixed; */
+   position: fixed;
  }
  
  body {
